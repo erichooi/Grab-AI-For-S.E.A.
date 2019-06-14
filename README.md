@@ -37,7 +37,7 @@ The given dataset contains telematics data during trips (bookingID). Each trip w
 
 ### Dependency
 The notebook required these external packages outside of default packages coming together after installing jupyter notebook. Do install these packages before running the notebook.
-```python 
+```sh 
 $ pip install scikit-plot
 $ pip install seaborn
 $ pip install xgboost
@@ -54,7 +54,7 @@ $ git clone https://github.com/erichooi/Grab-AI-For-S.E.A..git
 Then you can choose to run the notebook (**safety-challenge.ipynb**) line by line to get the test result
 **OR**
  just running the python script (**predict.py**) to get the test result.
-```python
+```sh
 $ python predict.py -t <<test.csv>>
 ```
 
