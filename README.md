@@ -51,7 +51,7 @@ First, clone the repository to local machine
 ```git
 $ git clone https://github.com/erichooi/Grab-AI-For-S.E.A..git
 ```
-Then you can choose to run the notebook (**safety-challenge.ipynb**) line by line to get the test result
+Then you can choose to run this section (**Run for Test Data**) in the notebook (**safety-challenge.ipynb**) to get the test result
 **OR**
  just running the python script (**predict.py**) to get the test result.
 ```sh
