@@ -58,4 +58,4 @@ Then you can choose to run this section (**Run for Test Data**) in the notebook 
 $ python predict.py -t <<test.csv>>
 ```
 
-Noted that both will generate test result in file called **test_result.csv**.
+Noted that both will generate test result in file called **submission.csv**.

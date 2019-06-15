@@ -89,4 +89,4 @@ if __name__ == "__main__":
     y_pred = sr.predict(test_X)
 
     output_df = pd.DataFrame({"bookingID": bookingID, "label": y_pred})
-    output_df.to_csv("test_result.csv")
+    output_df.to_csv("submission.csv")
