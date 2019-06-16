@@ -46,6 +46,14 @@ $ pip install dask
 $ pip install dask-ml
 ```
 
+### Model Architecture
+![model_architecture](fig/stacking.png)
+The model selected is a **2 layer stacking model**. At the first layer, **3** types of features which are selected manually and through models are used to train and generate **meta features** that will be used to train the second layer model. With this architecture, the model will be able to benefit from both the features that are important to **Linear-based model** and **Tree-based model**.
+
+### Model's Training Performance
+The model is evaluated using **5-Fold Cross Validation** with the metric of **AUC-ROC score**. The result of the evaluation is shown as below.
+![model_performance](fig/eval_result.png)
+
 ### To generate the prediction score
 First, clone the repository to local machine
 ```git
