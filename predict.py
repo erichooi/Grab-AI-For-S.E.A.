@@ -85,7 +85,7 @@ if __name__ == "__main__":
             test_X["angle_y_" + agg_method] = test_X[col] * test_X["gyro_y_" + agg_method]
             test_X["angle_z_" + agg_method] = test_X[col] * test_X["gyro_z_" + agg_method]
     
-    sr = load("stackingRegressor.joblib")
+    sr = load("./model/stackingRegressor.joblib")
     y_pred = sr.predict(test_X)
 
     output_df = pd.DataFrame({"bookingID": bookingID, "label": y_pred})
