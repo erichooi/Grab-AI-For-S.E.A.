@@ -67,3 +67,5 @@ $ python predict.py -t <<test.csv>>
 ```
 
 > Noted that both will generate test result in file called **submission.csv**.
+
+You can read more about my intuition and idea in this medium post (https://medium.com/@erichooi1995/grab-ai-for-sea-safety-track-314125b58efc).
